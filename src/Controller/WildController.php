@@ -9,6 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class WildController extends AbstractController
 {
+
     /**
      * @Route("/wild", name="wild_index")
      */
@@ -16,4 +17,18 @@ class WildController extends AbstractController
     {
         return $this->render('wild/index.html.twig',['website'=>'Wild Série']);
     }
+
+    /**
+     * @param $slug
+     * @return Response
+     * @Route("/wild/show/{slug}", requirements={"slug":"[a-z0-9\-]*"}, name="wild_show")
+     */
+    public function show($slug)
+    {
+        return $this->render('wild/show.html.twig',
+            [
+                'slug' => $slug
+            ]);
+    }
+
 }
