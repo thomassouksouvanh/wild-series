@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79356074-d279-43bb-bcad-1d981d1da7e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20191127075936.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/wild/category.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/WildController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/WildController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Program.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Program.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20191126140502.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/Version20191126150906.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/CategoryRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/CategoryRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Navbar/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Navbar/navbar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/wild/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wild/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/wild/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wild/show.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -242,7 +249,12 @@
       <workItem from="1574764559801" duration="13732000" />
       <workItem from="1574780500738" duration="49000" />
       <workItem from="1574780569690" duration="1600000" />
-      <workItem from="1574782828860" duration="2304000" />
+      <workItem from="1574782828860" duration="2779000" />
+      <workItem from="1574831181698" duration="21000" />
+      <workItem from="1574841381235" duration="872000" />
+      <workItem from="1574860591712" duration="9386000" />
+      <workItem from="1574914323399" duration="10000" />
+      <workItem from="1574927938082" duration="12185000" />
     </task>
     <servers />
   </component>

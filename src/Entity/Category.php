@@ -21,6 +21,13 @@ class Category
      */
     private $name;
 
+    private $categoryName;
+
+    /**
+     * @return int|null
+     * @var Category|null
+     */
+
     public function getId(): ?int
     {
         return $this->id;
@@ -37,4 +44,14 @@ class Category
 
         return $this;
     }
+    public function getCategory(): ?Category
+    {
+        return $this->categoryName;
+    }
+
+    public function setCategory(?Category $categoryName): self
+    {
+        return $this->categoryName;
+    }
+
 }

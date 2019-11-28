@@ -78,11 +78,18 @@ class Program
         return $this;
     }
 
+    /**
+     * @return Category|null
+     */
     public function getCategory(): ?Category
     {
         return $this->category;
     }
 
+    /**
+     * @param Category|null $category
+     * @return $this
+     */
     public function setCategory(?Category $category): self
     {
         $this->category = $category;
