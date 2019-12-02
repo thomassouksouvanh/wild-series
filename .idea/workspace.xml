@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79356074-d279-43bb-bcad-1d981d1da7e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20191127075936.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/wild/category.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Season.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20191202090815.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/SeasonRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wild-series.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wild-series.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/WildController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/WildController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Program.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Program.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/CategoryRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/CategoryRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Navbar/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Navbar/navbar.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/wild/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wild/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/wild/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wild/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,6 +186,11 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -208,15 +208,15 @@
       <recent name="$PROJECT_DIR$/vendor" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -254,7 +254,14 @@
       <workItem from="1574841381235" duration="872000" />
       <workItem from="1574860591712" duration="9386000" />
       <workItem from="1574914323399" duration="10000" />
-      <workItem from="1574927938082" duration="12185000" />
+      <workItem from="1574927938082" duration="13039000" />
+      <workItem from="1575002034087" duration="39000" />
+      <workItem from="1575014299150" duration="638000" />
+      <workItem from="1575020735851" duration="2254000" />
+      <workItem from="1575029815656" duration="11000" />
+      <workItem from="1575030733696" duration="11000" />
+      <workItem from="1575035864940" duration="14000" />
+      <workItem from="1575273887140" duration="2057000" />
     </task>
     <servers />
   </component>
@@ -276,5 +283,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="191" width="800" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575278171850">
+      <screen x="0" y="27" width="1920" height="1006" />
+    </state>
+    <state x="555" y="191" width="800" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1006@0.27.1920.1006" timestamp="1575278171850" />
   </component>
 </project>
