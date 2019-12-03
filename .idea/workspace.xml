@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79356074-d279-43bb-bcad-1d981d1da7e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Entity/Season.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20191202090815.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/SeasonRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wild-series.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wild-series.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20191202160235.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20191203085422.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/wild/season.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/WildController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/WildController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Program.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Program.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20191202090815.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/Version20191202090815.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Navbar/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Navbar/navbar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/wild/category.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wild/category.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/wild/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wild/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/wild/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wild/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,28 @@
         <item name="wild-series@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="wild-series: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="episode: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="wild-series@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="wild-series: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="migration_versions: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="wild-series@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="wild-series: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="program: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="wild-series@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="wild-series: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="season: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -261,7 +284,20 @@
       <workItem from="1575029815656" duration="11000" />
       <workItem from="1575030733696" duration="11000" />
       <workItem from="1575035864940" duration="14000" />
-      <workItem from="1575273887140" duration="2057000" />
+      <workItem from="1575273887140" duration="2407000" />
+      <workItem from="1575278382693" duration="1208000" />
+      <workItem from="1575281722466" duration="3091000" />
+      <workItem from="1575286395184" duration="878000" />
+      <workItem from="1575287922266" duration="176000" />
+      <workItem from="1575288246299" duration="2840000" />
+      <workItem from="1575293321723" duration="933000" />
+      <workItem from="1575295752072" duration="6000" />
+      <workItem from="1575301431217" duration="217000" />
+      <workItem from="1575302203302" duration="1248000" />
+      <workItem from="1575348077493" duration="10000" />
+      <workItem from="1575359745503" duration="6844000" />
+      <workItem from="1575366879815" duration="1447000" />
+      <workItem from="1575368447963" duration="8387000" />
     </task>
     <servers />
   </component>
@@ -285,9 +321,37 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="555" y="191" width="800" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575278171850">
+    <state x="555" y="191" width="800" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575281892753">
       <screen x="0" y="27" width="1920" height="1006" />
     </state>
-    <state x="555" y="191" width="800" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1006@0.27.1920.1006" timestamp="1575278171850" />
+    <state x="555" y="191" width="800" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1006@0.27.1920.1006" timestamp="1575281892753" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1575281923799">
+      <screen x="0" y="27" width="1920" height="1006" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.27.1920.1006@0.27.1920.1006" timestamp="1575281923799" />
+    <state x="743" y="288" width="424" height="498" key="FileChooserDialogImpl" timestamp="1575348085470">
+      <screen x="0" y="27" width="1920" height="1006" />
+    </state>
+    <state x="743" y="288" width="424" height="498" key="FileChooserDialogImpl/0.27.1920.1006@0.27.1920.1006" timestamp="1575348085470" />
+    <state width="1291" height="258" key="GridCell.Tab.0.bottom" timestamp="1575278769638">
+      <screen x="0" y="27" width="1920" height="1006" />
+    </state>
+    <state width="1291" height="258" key="GridCell.Tab.0.bottom/0.27.1920.1006@0.27.1920.1006" timestamp="1575278769638" />
+    <state width="1291" height="258" key="GridCell.Tab.0.center" timestamp="1575278769638">
+      <screen x="0" y="27" width="1920" height="1006" />
+    </state>
+    <state width="1291" height="258" key="GridCell.Tab.0.center/0.27.1920.1006@0.27.1920.1006" timestamp="1575278769638" />
+    <state width="1291" height="258" key="GridCell.Tab.0.left" timestamp="1575278769637">
+      <screen x="0" y="27" width="1920" height="1006" />
+    </state>
+    <state width="1291" height="258" key="GridCell.Tab.0.left/0.27.1920.1006@0.27.1920.1006" timestamp="1575278769637" />
+    <state width="1291" height="258" key="GridCell.Tab.0.right" timestamp="1575278769638">
+      <screen x="0" y="27" width="1920" height="1006" />
+    </state>
+    <state width="1291" height="258" key="GridCell.Tab.0.right/0.27.1920.1006@0.27.1920.1006" timestamp="1575278769638" />
+    <state x="623" y="247" width="672" height="678" key="search.everywhere.popup" timestamp="1575377607814">
+      <screen x="0" y="27" width="1920" height="1006" />
+    </state>
+    <state x="623" y="247" width="672" height="678" key="search.everywhere.popup/0.27.1920.1006@0.27.1920.1006" timestamp="1575377607814" />
   </component>
 </project>
